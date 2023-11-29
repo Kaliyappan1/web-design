@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive porfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="nav bd_grid">
+            <div>
+                <a href="#" class="nav-logo">Codewithkali</a>
+            </div>
+            
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_items"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_items"><a href="#about" class="nav_link active">about</a></li>
+                    <li class="nav_items"><a href="#skills" class="nav_link active">skills</a></li>
+                    <li class="nav_items"><a href="#work" class="nav_link active">work</a></li>
+                    <li class="nav_items"><a href="#contact" class="nav_link active">contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav_toggle">
+                <i class='bx bx-menu-alt-right'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+         
+            <!-- home section -->
+        <section class="home bd_grid" id="home">
+            <div class="home_data" data-aos="fade-down">
+                <h1 class="home_title">
+                    Hi, <br>I'm <span class="home_title-color">kaliyappan R</span><br>Web Designer
+                </h1>
+                <a href="#contact" class="button"> Contact</a>
+            </div>
+
+            <div class="home_social" >
+
+            <a href="#" class="home_sicials-icon" data-aos="fade-down"><i class='bx bxl-facebook-circle'></i></a>
+            <a href="#" class="home_sicials-icon" data-aos="fade-down" data-aos-delay="250"><i class='bx bxl-instagram' ></i></a>
+            <a href="#" class="home_sicials-icon" data-aos="fade-down" data-aos-delay="350"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="#" class="home_sicials-icon" data-aos="fade-down" data-aos-delay="400"><i class='bx bxl-github'></i></a>
+            
+            </div>
+
+            <div class="home_img" data-aos="fade-down" data-aos-delay="500">
+                <img src="images/home.svg" alt="home">
+
+            </div>
+
+        </section>
+            <!-- about section -->
+        <section class="about section" id="about">
+
+            <h2 class="section-title" data-aos="fade-down">about</h2>
+
+            <div class="about_container bd_grid">
+                
+                <div class="about_img" data-aos="fade-down" data-aos-delay="250">
+                    <img src="images/profile.svg" alt="profile">
+                </div>
+                <div>
+                    <h2 class="about_subtitle" data-aos="fade-down" data-aos-delay="350">I'm Kaliyappan R</h2>
+                    <p class="about_text" data-aos="fade-down" data-aos-delay="450">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora animi corporis ipsa, ducimus quod eveniet, corrupti illo quisquam dolore reiciendis minima veritatis blanditiis deserunt doloribus iste ratione quae ad est.</p>
+                </div>
+            </div>
+            
+        </section>
+            <!-- skills section -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title" data-aos="fade-down">skills</h2>
+            <div class="skills_container bd_grid">
+                <div>
+                    <h2 class="skills_subtitle" data-aos="fade-down" data-aos-delay="250">professional skills</h2>
+                    <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+                        without sharpen your weapon; standing on the battlefoeld would not increase your chance of winning
+
+                    </p>
+                    <!-- skils html -->
+                    <div class="skills_data" data-aos="fade-right">
+                        <div class="skills_name">
+                            <i class='bx bxl-html5 skill_icon' ></i>
+                            <span class="skill_name">html5</span>
+                        </div>
+
+                        <div><span class="skill_percentage">95%</span></div>
+
+                        <div class="skill_bar skill_html"></div>
+                    </div>
+                    <!-- skills css -->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skills_name">
+                            <i class='bx bxl-css3 skill_icon' ></i>
+                            <span class="skill_name">css3</span>
+                        </div>
+
+                        <div><span class="skill_percentage">85%</span></div>
+
+                        <div class="skill_bar skill_css"></div>
+                    </div>
+
+                    <!-- skills js -->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="350">
+                        <div class="skills_name">
+                            <i class='bx bxl-javascript skill_icon' ></i>
+                            <span class="skill_name">java script</span>
+                        </div>
+
+                        <div><span class="skill_percentage">75%</span></div>
+
+                        <div class="skill_bar skill_js"></div>
+                    </div>
+                    
+                    <!-- skills UI/UX -->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="450">
+                        <div class="skills_name">
+                            <i class='bx bxs-paint skill_icon' ></i>
+                            <span class="skill_name">UI/UX</span>
+                        </div>
+
+                        <div><span class="skill_percentage">85%</span></div>
+
+                        <div class="skill_bar skill_ui"></div>
+                    </div>
+                    
+                </div>
+                <div data-aos="fade-left" data-aos-delay="350">
+                    <img src="images/profile2.svg" alt="profile2">
+                </div>
+
+            </div>
+
+
+        </section>
+            <!-- work sec -->
+        <section class="work section" id="work">
+            <h2 class="section-title" data-aos="fade-down">work</h2>
+
+            <div class="work_container bd_grid" data-aos="fade-down" data-aos-delay="250">
+                <div class="work_img">
+                    <img src="images/work1.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="images/work2.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="images/work3.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="images/work4.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="images/work5.jpg" alt="">
+                </div>
+                <div class="work_img">
+                    <img src="images/work6.jpg" alt="">
+                
+
+            </div>
+
+        </section>
+            <!-- contact sec -->
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title" data-aos="fade-down">Contact</h2>
+
+            <div class="contact_container bd_grid">
+                <form action="#" class="contact_form">
+                    <input type="text" placeholder="Name" class="control_input" data-aos="fade-down" data-aos-delay="300">
+                    <input type="mail" placeholder="Email" class="control_input" data-aos="fade-down" data-aos-delay="350">
+                    <textarea name="" id="" cols="30" rows="10" class="control_input" data-aos="fade-down" data-aos-delay="400"></textarea>
+
+                    <input type="button" value="Send" class="control_button button" data-aos="fade-down" data-aos-delay="450">
+                </form>
+            </div>
+
+        </section>
+        <!-- footer section -->
+    
+        <footer class="footer">
+            <p class="footer_title" data-aos="fade-down">
+                Kaliyappan R
+            </p>
+            <div class="footer_socials">
+                <a href="#" class="footer-icon" data-aos="fade-down" data-aos-delay="350"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="#" class="footer-icon" data-aos="fade-down" data-aos-delay="400"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer-icon" data-aos="fade-down" data-aos-delay="450"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#" class="footer-icon" data-aos="fade-down" data-aos-delay="500"><i class='bx bxl-github'></i></a>
+            
+            </div>
+            <p>&#169; 2024 copyright all right reserved</p>
+        </footer>
+         
+
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+     
+    <script>
+        AOS.init({
+            duration: 1200,
+            once: false,
+        });
+    </script>
+</body>
+</html>
